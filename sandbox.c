@@ -2,11 +2,12 @@
 #include <stdlib.h>
 
 int main(void){
-    int n, i;
+    int n, i,d;
     char *ptr;
 
     printf("Enter number of char to store: ");
     scanf("%d",&n);
+
 
     ptr = (char*)malloc(n*sizeof(char));
 
