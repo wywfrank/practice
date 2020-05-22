@@ -4,6 +4,7 @@
 int main(void){
     int n, i,d;
     char *ptr;
+	int temp;
 
     printf("Enter number of char to store: ");
     scanf("%d",&n);
